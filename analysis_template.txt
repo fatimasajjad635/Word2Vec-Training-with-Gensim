@@ -1,0 +1,26 @@
+Analysis of Word2Vec Similarities - Assignment 3
+
+Student Name: [Your Name]
+Student ID: [Your Student ID]
+
+=== WORD SIMILARITY RESULTS ===
+
+Words most similar to "good":
+[List the top 10 most similar words and their similarity scores]
+
+Words most similar to "bad":
+[List the top 10 most similar words and their similarity scores]
+
+=== ANALYSIS ===
+
+[Write 5-6 sentences addressing the following questions:]
+
+1. Are the words most similar to "good" generally positive in sentiment?
+2. Are the words most similar to "bad" generally negative in sentiment?
+3. Why do you think this is or isn't the case?
+4. What does this tell you about how Word2Vec learns word representations?
+
+[Your analysis should demonstrate understanding of:]
+- How Word2Vec uses context to learn word meanings
+- The difference between semantic similarity and sentiment
+- Why Word2Vec might capture sentiment patterns in the data

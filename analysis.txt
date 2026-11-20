@@ -1,0 +1,51 @@
+Analysis of Word2Vec Similarities - Assignment 3
+
+Student Name: Fatima Sajjad
+Student ID: [Your Student ID]
+
+=== WORD SIMILARITY RESULTS ===
+
+Words most similar to "good":
+1."great",0.7534162402153015
+2."decent",0.6806468963623047
+3."superb",0.6737433075904846
+4."sog",0.6324850916862488
+5."wonderful",0.6272047162055969
+6."nice",0.6166399717330933
+7."longlasting",0.6084890961647034
+8."terrific",0.6062994003295898
+9."classy",0.603265106678009
+10."wellthe",0.5974608659744263
+
+
+Words most similar to "bad":
+1."fake", 0.6394557952880859
+2."awful",0.6232636570930481
+3."inspiring", 0.6160499453544617
+4."funny", 0.6045240163803101
+5."trivial",0.6015617847442627
+6."horrid", 0.598597526550293
+7."terrible",0.5981081128120422
+8."smelly",0.5956707000732422
+9."batman",0.5874325037002563
+10."playability",0.5868335366249084
+
+=== ANALYSIS ===
+
+[Write 5-6 sentences addressing the following questions:]
+
+1. Are the words most similar to "good" generally positive in sentiment?
+2. Are the words most similar to "bad" generally negative in sentiment?
+3. Why do you think this is or isn't the case?
+4. What does this tell you about how Word2Vec learns word representations?
+
+[Your analysis should demonstrate understanding of:]
+- How Word2Vec uses context to learn word meanings
+- The difference between semantic similarity and sentiment
+- Why Word2Vec might capture sentiment patterns in the data
+
+The terms that are closest in meaning to "good" are usually positive in nature. Likewise, the words closely associated with "bad" are primarily negative.
+This case arises because Word2Vec understands word meanings based on their contextual usage and so, words that appear in similar contexts often have alike vector representations.
+However, Word2Vec frequently overlaps with sentiment, particularly when the dataset includes emotionally charged language.
+This indicates that Word2Vec can reflect sentiment trends in an indirect manner, even if it is not specifically designed for sentiment analysis.
+It demonstrates that Word2Vec successfully captures how language is utilized in real-world contexts, acquiring meaning through context.
